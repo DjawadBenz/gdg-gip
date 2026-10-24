@@ -10,10 +10,10 @@ background-color: #427aa1;
     width: min(86vw, 472px);       /* width: 472px;  */
 
    
-   height: min(115vw,680px);       /* height: 680px;  */
+   height: min(135vw,725px);       /* height: 680px;  */
 
  
-  margin-top: 5.6rem;              /* margin-top: 100px;  */
+  margin-top: 4.6rem;              /* margin-top: 100px;  */
 display: flex;
 flex-direction: column;
 text-shadow: 0 0 2px black;
