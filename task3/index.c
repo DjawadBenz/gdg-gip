@@ -38,5 +38,5 @@ binStri[n]='\0';
 return binStri;     //returnnn      
 }
 }
-return "011";
+return "011";  //that won't be reached only for the code
 }
