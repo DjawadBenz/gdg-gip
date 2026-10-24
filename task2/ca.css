@@ -1,0 +1,129 @@
+*{
+    font-family: Arial;
+}
+body{
+background-color: #427aa1;
+
+}
+
+#cal{
+    width: min(86vw, 472px);       /* width: 472px;  */
+
+   
+   height: min(115vw,680px);       /* height: 680px;  */
+
+ 
+  margin-top: 5.6rem;              /* margin-top: 100px;  */
+display: flex;
+flex-direction: column;
+text-shadow: 0 0 2px black;
+align-self:center;
+justify-self: center;
+background-color: #faf0ca;
+
+border: 2px solid;
+border-radius: 9px;
+border-color:#0d3b66;
+
+}
+#disp{
+color: #faf0ca;
+
+font-size: clamp(2.5rem, 5vw, 4.125rem);      /* font-size: 66px; */
+
+padding: 0.44rem 1.25rem 0 1.25rem;           /* padding: 7px 20px 0 20px; */
+
+border-radius: 5px;
+border-color: #0d3b66;
+/* margin:20px; */
+margin: 1.25rem;
+
+/* height: 90px; */
+height: 90px;
+
+/* width: 400px; */
+width: min(80%, 400px);
+background-color:#0d3b66 ;
+
+}
+#nums{
+
+display: flex;
+justify-content: center;
+/* align-items: center; */
+/* gap:30px; */
+gap: clamp(0.9rem, 2vw, 1.875rem);
+/* responsive: gap: clamp(0.9rem, 2vw, 1.875rem); */
+/* margin-top: 10px; */
+margin-top: 0.625rem;
+
+
+}
+#numlast{
+
+/* display: flex;
+gap: 40px;
+flex-direction: column; */
+
+display: flex;
+flex-direction: column;
+/* width: 200px; */
+/* gap:40px; */
+gap: clamp(1.25rem, 3vw, 2.5rem);
+
+}
+#num1{
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+/* width: 200px; */
+/* gap:40px; */
+gap: clamp(1.25rem, 3vw, 2.5rem);
+
+
+}
+
+.dig{    
+border-radius: 50%;
+background-color:#f4d35e;
+/* width: 70px; */
+width: clamp(3.22rem, 8.5vw, 5rem);
+
+/* height:70px; */
+/* height: clamp(3.125rem, 8vw, 4.375rem); */
+height:  clamp(3.22rem, 8.5vw, 5rem);
+
+color: #0d3b66;
+/* font-size: 30px; */
+font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+font-weight: bolder;
+text-shadow: 1px 1px 2px #ebf2fa;
+}
+
+.dig:hover{
+cursor: pointer;
+background-color:#f4d04e;
+
+}
+.dig:active{
+background-color:#edc73e;
+
+
+}
+.digl{
+        
+border-radius: 50%;
+background-color:#f4d35e;
+/* width: 70px; */
+width: clamp(3.22rem, 8.5vw, 5rem);
+
+/* height:70px; */
+height: clamp(3.22rem, 8.5vw, 5rem);
+
+color: #0d3b66;
+/* font-size: 30px; */
+font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+font-weight: bolder;
+text-shadow: 1px 1px 2px #ebf2fa;
+
+}
